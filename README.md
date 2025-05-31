@@ -17,7 +17,13 @@ This is a **responsive landing page** created for the **National Service Scheme 
 
 ## 📸 Preview
 
-![Preview of NSS NSUT Landing Page](./assets/gallery1.png)
+![Preview 1](./assets/nss-preview1.png)
+![Preview 2](./assets/nss-preview2.png)
+![Preview 3](./assets/nss-preview3.png)
+![Preview 4](./assets/nss-preview4.png)
+![Preview 5](./assets/nss-preview5.png)
+![Preview 6](./assets/nss-preview6.png)
+
 
 
 
@@ -54,7 +60,7 @@ nss-landing-page/
 ## 🧑‍💻 Author
 
 **Ashish**  
-- [GitHub Profile]()
+- [GitHub Profile](https://github.com/ashish-sinsinwal)
 - [LinkedIn](https://linkedin.com/in/ashish-sinsinwal-a31b48318)
 
 ## 📌 Note
