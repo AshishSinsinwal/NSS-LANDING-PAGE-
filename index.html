@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>NSS NSUT</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  </head>
+<body>
+  <!-- ===== HEADER ===== -->
+  <header class="header">
+    <nav class="navbar navbar-expand-md bg-body-tertiary">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="notice.html" id="notices">Notices</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" id="events">Events</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" id="aboutUs">About us</a>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+      <div class="logo-container">
+        <img src="./assets/nss-logo.png" alt="NSS Logo" class="logo" />
+        <img src="./assets/nsut-logo.png" alt="College Logo" class="logo" />
+      </div>
+    </nav>
+  </header>
+
+  <!-- ===== HERO SECTION ===== -->
+  <section class="hero">
+    <img src="assets/nss-banner.png" alt="NSS Banner" class="hero-img" />
+  </section>
+
+  <!-- ===== NOTICES SECTION ===== -->
+  <section class="notices">
+    <h2><b>Notices</b></h2>
+    <div class="notice-cards">
+      <div class="notice-card">Blood Donation Camp on 5th June</div>
+      <div class="notice-card">Tree Plantation Drive 12th June</div>
+      <div class="notice-card">Volunteer Orientation Program</div>
+    </div>
+    <a href="notice.html" class="view-all" target="_blank">View All Notices</a>
+  </section>
+
+  <!-- ===== WELCOME MESSAGE SECTION ===== -->
+  <section id="welcome-message">
+    <h2 style="color: #8B0000; font-size: 2rem; margin-bottom: 1rem;">Dear NSS Family and Friends,</h2>
+    <p style="font-size: 1.1rem; line-height: 1.6; color: #333;">
+      Welcome to the official website of the National Service Scheme (NSS) at Netaji Subhas University of Technology.
+    </p>
+    <button class="btn btn-link" id="read-more">Read more!</button>
+
+    <div class="full-welcome-msg hide">
+      <p style="font-size: 1.1rem; line-height: 1.6; color: #333;">
+        At NSS, our mission is to empower students through impactful community service, nurturing a sense of social responsibility, empathy, and leadership. Guided by our motto — <strong>Not Me, But You</strong> — we believe in the transformative power of selfless service and collective action to bring about meaningful change.
+      </p>
+      <p style="font-size: 1.1rem; line-height: 1.6; color: #333;">
+        Whether you're a dedicated volunteer, a prospective member, or simply someone interested in our work, we invite you to explore the many initiatives and opportunities featured on our site. From social outreach to campus events, every effort is a step toward building a better tomorrow.
+      </p>
+      <p style="font-size: 1.1rem; line-height: 1.6; color: #333;">
+        Join us as we continue our journey of service, learning, and growth. Together, let's foster compassion, inspire action, and create a lasting impact—on campus, in our communities, and beyond.
+      </p>
+      <p style="font-size: 1.1rem; line-height: 1.6; color: #333;">
+        Thank you for visiting, and we look forward to your active engagement in our endeavors!
+      </p>
+      <p style="margin-top: 2rem; font-weight: bold; color: #555;">Warm regards,<br>The NSS NSUT Team</p>
+    </div>
+    <button class="btn btn-link close hide" id="read-less">Read less!</button>
+  </section>
+
+  <!-- ===== GALLERY SECTION ===== -->
+  <section class="gallery">
+    <h2><b>Gallery</b></h2>
+    <div class="slider-wrapper">
+      <button class="arrow left" onclick="prevSlide()">&#8592;</button>
+
+      <div class="gallery-slider" id="gallerySlider">
+        <div class="card">
+          <img src="assets/gallery1.jpg" class="card-img-top" alt="Mock Drill Session">
+          <div class="card-body">
+            <h5 class="card-title"><b>Mock Drill Session</b></h5>
+            <p class="card-text">NSUT || NSS</p>
+            <button class="btn btn-primary">Know more!</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="assets/gallery2.jpg" class="card-img-top" alt="Water Treatment Session">
+          <div class="card-body">
+            <h5 class="card-title"><b>Water Treatment Session</b></h5>
+            <p class="card-text">NSUT || NSS</p>
+            <button class="btn btn-primary">Know more!</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="assets/gallery3.jpg" class="card-img-top" alt="Cramp Simulator">
+          <div class="card-body">
+            <h5 class="card-title"><b>Cramp Simulator</b></h5>
+            <p class="card-text">NSUT || NSS</p>
+            <button class="btn btn-primary">Know more!</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="assets/gallery4.jpg" class="card-img-top" alt="Plantation Drive">
+          <div class="card-body">
+            <h5 class="card-title"><b>Plantation Drive</b></h5>
+            <p class="card-text">NSUT || NSS</p>
+            <button class="btn btn-primary">Know more!</button>
+          </div>
+        </div>
+      </div>
+
+      <button class="arrow right" onclick="nextSlide()">&#8594;</button>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="footer-top">
+      <p>Stay connected with us through our social platforms:</p>
+      <div class="social-icons">
+        <a href="https://x.com/nssnsutcell?lang=en" class="icon x" target="_blank">X</a>
+        <a href="https://www.instagram.com/nssnsutcell/?hl=en" class="icon instagram" target="_blank">IG</a>
+        <a href="https://in.linkedin.com/company/nss-nsut-delhi" class="icon linkedin" target="_blank">IN</a>
+        <a href="https://www.youtube.com/channel/UCZRtEXP1DKBS4RHyxkXlRuQ" class="icon youtube" target="_blank">YT</a>
+      </div>
+    </div>
+
+    <div class="footer-main">
+      <div class="quick-links">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="http://nsut.ac.in/" target="_blank">NSUT</a></li>
+          <li><a href="https://nss.gov.in/" target="_blank">NSS</a></li>
+          <li><a href="https://www.india.gov.in/" target="_blank">Government of India</a></li>
+          <li><a href="https://yas.nic.in/" target="_blank">Ministry of Youth Affairs and Sports</a></li>
+        </ul>
+      </div>
+      <div class="contact-info">
+        <h3>Contact</h3>
+        <p><strong>Mail:</strong> nsscoordinator.nsut@gmail.com</p>
+        <p><strong>Location:</strong> NSS Office, Student Activity Centre, NSUT,<br>
+          Azad Hind Fauj Marg, Dwarka Sector-3, Delhi-110078</p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2024 NSS-NSUT CELL. All rights reserved.</p>
+    </div>
+  </footer>
+  
+  <script src="app.js"></script>
+</body>
+</html>
