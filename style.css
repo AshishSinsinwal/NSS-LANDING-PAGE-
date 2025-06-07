@@ -536,6 +536,13 @@
 
 
     /* ===== RESPONSIVE MEDIA QUERIES ===== */
+    @media (max-width :768px){
+      .logo-container{
+        position: absolute;
+        top:1.7rem;
+      }
+    }
+    
     @media (min-width: 600px) {
       .gallery .card {
         min-width: 50%;
